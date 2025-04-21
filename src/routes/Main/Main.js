@@ -14,10 +14,10 @@ export default class Main extends React.Component {
     isExist: true,
     text: "仅用于办理住房公积金，他用无效。",
     hex: "#000000",
-    rgb: { r: 0, g: 0, b: 0, a: 0.4 },
-    fontSize: 23,
+    rgb: { r: 0, g: 0, b: 0, a: 0.25 },
+    fontSize: 12,
     watermarkHeight: 180,
-    watermarkWidth: 280
+    watermarkWidth: 200
   };
   componentDidMount() {
     this.watermark = new Watermark(this.mainCanvas);
