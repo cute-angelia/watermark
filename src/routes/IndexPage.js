@@ -2,7 +2,6 @@ import React from "react";
 import GitHup from "./GitHup";
 import Block from "dxc-flex";
 import Main from "./Main/Main";
-import Donation from "./Donation/Donation";
 import qqShare from "qq-share";
 qqShare({
   title: "身份证盗用所造成的损失，你想象不到！",
@@ -29,7 +28,6 @@ export default class IndexPage extends React.Component {
           在各种证件上添加“仅用于办理XXXX，他用无效。”，防止证件被他人盗用！
         </Block>
         <Main />
-        <Donation />
       </div>
     );
   }
